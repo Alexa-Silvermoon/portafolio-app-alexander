@@ -18,36 +18,36 @@ export default class header extends Component {
                     </li>
                     <li>
                         <a className="smoothscroll" href="#about">
-                        About
+                        Acerca de mí
                         </a>
                     </li>
                     <li>
                         <a className="smoothscroll" href="#resume">
-                        Resume
+                        Estudios
                         </a>
                     </li>
                     <li>
                         <a className="smoothscroll" href="#portfolio">
-                        Works
+                        Proyectos
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="smoothscroll" href="#testimonials">
                         Testimonials
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="smoothscroll" href="#contact">
-                        Say Hello
+                        Contáctame
                         </a>
                     </li>
                     </ul>
                 </nav>
                 </div>{" "}
                 {/* end row */}
-                <a className="s-header__menu-toggle" href="#0" title="Menu">
+                {/* <a className="s-header__menu-toggle" href="#hero" title="Menu">
                 <span className="s-header__menu-icon" />
-                </a>
+                </a> */}
             </header>{" "}
             {/* end s-header */}
         </>

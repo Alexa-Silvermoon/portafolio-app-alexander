@@ -10,44 +10,40 @@ export default class resume extends Component {
             <section id="resume" className="s-resume target-section">
                 <div className="row s-resume__section">
                 <div className="column large-3 tab-12">
-                    <h3 className="section-header-allcaps">Career</h3>
+                    <h3 className="section-header-allcaps">Estudios</h3>
                 </div>
                 <div className="column large-9 tab-12">
                     <div className="resume-block">
                     <div className="resume-block__header">
-                        <h4 className="h3">Dropbox</h4>
+                        <h4 className="h3">Educación</h4>
                         <p className="resume-block__header-meta">
-                        <span>Product Designer</span>
-                        <span className="resume-block__header-date">
+                        <span>Tecnólogo Industrial y en Sistemas de Información</span>
+                        {/* <span className="resume-block__header-date">
                             August 2019 - Present
-                        </span>
+                        </span> */}
                         </p>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet.
-                        Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit
-                        aperiam nesciunt facilis! Porro architecto dicta inventore tempora
-                        ratione quia odio.
+                        ● Secundaria: Colegio Parroquial San Juan Bautista - 2012.<br></br>
+                        ● Tecnología: FCECEP – Tecnología en Sistemas de Información - 2018.<br></br>
+                        ● Tecnología: FCECEP – Tecnología en Industrial - 2020.
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
                     <div className="resume-block">
                     <div className="resume-block__header">
-                        <h4 className="h3">Facebook</h4>
-                        <p className="resume-block__header-meta">
+                        <h4 className="h3">Lenguajes</h4>
+                        {/* <p className="resume-block__header-meta">
                         <span>UI/UX Designer</span>
                         <span className="resume-block__header-date">
                             August 2016 - July 2019
                         </span>
-                        </p>
+                        </p> */}
                     </div>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet.
-                        Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit
-                        aperiam nesciunt facilis! Porro architecto dicta inventore tempora
-                        ratione quia odio.
+                        ● Nativo: español.<br></br>
+                        ● Extranjero: English – American English School. B1 - 2019.<br></br>
+                        ● Extranjero: English – Centro Cultural Colombo Americano. B2 OOPT - 2019.
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
@@ -56,40 +52,45 @@ export default class resume extends Component {
                 {/* s-resume__section */}
                 <div className="row s-resume__section">
                 <div className="column large-3 tab-12">
-                    <h3 className="section-header-allcaps">Education</h3>
+                    <h3 className="section-header-allcaps">Conocimiento y Certificaciones</h3>
                 </div>
                 <div className="column large-9 tab-12">
                     <div className="resume-block">
                     <div className="resume-block__header">
-                        <h4 className="h3">University of Life</h4>
-                        <p className="resume-block__header-meta">
+                        <h4 className="h3">Habilidades</h4>
+                        {/* <p className="resume-block__header-meta">
                         <span>Master in Graphic Design</span>
                         <span className="resume-block__header-date">April 2015</span>
-                        </p>
+                        </p> */}
                     </div>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet.
-                        Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit
-                        aperiam nesciunt facilis! Porro architecto dicta inventore tempora
-                        ratione quia odio.
+                        ● Lenguajes: JavaScript, NodeJS, TypeScript.<br></br>
+                        ● Conocimientos: Html, NPM, Yarn, Postman, GitHub, Heroku, Google Cloud API, Cloudinary, Giphy, Netlify, Pruebas Jest.<br></br>
+                        ● Bases de Datos: MongoDB Compass & Atlas, MySql - TablePlus.<br></br>
+                        ● SDK: Visual Studio Code + Extensiones.<br></br>
+                        ● Frameworks: React con Vite.<br></br>
+                        ● Habilidades analíticas: creatividad, trabajo en equipo, adaptabilidad, responsabilidad, habilidad para aprender y puntualidad.
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
                     <div className="resume-block">
                     <div className="resume-block__header">
-                        <h4 className="h3">School of Cool Designers</h4>
-                        <p className="resume-block__header-meta">
+                        <h4 className="h3">Certificaciones, Seminarios y Cursos</h4>
+                        {/* <p className="resume-block__header-meta">
                         <span>B.A. Degree in Graphic Design</span>
                         <span className="resume-block__header-date">August 2012</span>
-                        </p>
+                        </p> */}
                     </div>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet.
-                        Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit
-                        aperiam nesciunt facilis! Porro architecto dicta inventore tempora
-                        ratione quia odio.
+                        ● Sistema Integral de Lectura Inteligente (SILI) - 2017.<br></br>
+                        ● Introducción a desarrollo de aplicaciones hibridas - 2018.<br></br>
+                        ● Forex trading Tac Trade Company - 2020.<br></br>
+                        ● Duolingo.<br></br>
+                        ● Grasshopper Learn to Code - JavaScript.<br></br>
+                        ● Udemy - Programación Para Principiantes - 2021.<br></br>
+                        ● Udemy - JavaScript Moderno: Guía para dominar el lenguaje - 2022.<br></br>
+                        ● Sololearn Certificado JavaScript - 2022.<br></br>
+                        ● Udemy - Node: De cero a experto - 2022.<br></br>
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
@@ -98,24 +99,20 @@ export default class resume extends Component {
                 {/* s-resume__section */}
                 <div className="row s-resume__section">
                 <div className="column large-3 tab-12">
-                    <h3 className="section-header-allcaps">Skills</h3>
+                    <h3 className="section-header-allcaps">Lenguajes de Programación</h3>
                 </div>
                 <div className="column large-9 tab-12">
                     <div className="resume-block">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-                        vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet.
-                        Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit
-                        aperiam nesciunt facilis! Porro architecto dicta inventore tempora
-                        ratione quia odio.
+                        Estos son los lenguajes de programación que actualmente conozco y que iré mejorando.
                     </p>
                     <ul className="skill-bars-fat">
                         <li>
-                        <div className="progress percent85" />
+                        <div className="progress percent45" />
                         <strong>HTML</strong>
                         </li>
                         <li>
-                        <div className="progress percent85" />
+                        <div className="progress percent30" />
                         <strong>CSS</strong>
                         </li>
                         <li>
@@ -123,17 +120,22 @@ export default class resume extends Component {
                         <strong>Javascript</strong>
                         </li>
                         <li>
-                        <div className="progress percent90" />
-                        <strong>Figma</strong>
+                        <div className="progress percent65" />
+                        <strong>NodeJS</strong>
                         </li>
                         <li>
-                        <div className="progress percent75" />
-                        <strong>Illustrator</strong>
+                        <div className="progress percent55" />
+                        <strong>React</strong>
                         </li>
                         <li>
-                        <div className="progress percent60" />
-                        <strong>Photoshop</strong>
+                        <div className="progress percent5" />
+                        <strong>Python</strong>
                         </li>
+                        <li>
+                        <div className="progress percent5" />
+                        <strong>PHP</strong>
+                        </li>
+                        
                     </ul>
                     </div>{" "}
                     {/* end resume-block */}

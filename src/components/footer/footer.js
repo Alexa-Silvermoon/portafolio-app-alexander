@@ -22,7 +22,8 @@ export default class footer extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="#0">
+                        {/* <a href="#0"> */}
+                        <a href="https://www.instagram.com/alexan.martini/">
                         <i className="fab fa-instagram" aria-hidden="true" />
                         </a>
                     </li>
@@ -32,7 +33,7 @@ export default class footer extends Component {
                         </a>
                     </li>
                     <li>
-                        <a href="#0">
+                        <a href="https://www.linkedin.com/in/christian-a-martinez-millan/">
                         <i className="fab fa-linkedin-in" aria-hidden="true" />
                         </a>
                     </li>
