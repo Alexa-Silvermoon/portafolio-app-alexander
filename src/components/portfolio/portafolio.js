@@ -73,27 +73,27 @@ export default class portafolio extends Component {
                     </a>
                 </div>{" "}
                 {/* end folio-item */}
-                {/* <div className="column folio-item">
+                <div className="column folio-item">
                     <a href="#modal-06" className="folio-item__thumb">
                     <img
-                        src="images/portfolio/skaterboy.jpg"
-                        srcSet="images/portfolio/skaterboy.jpg 1x, 
-                                    images/portfolio/skaterboy@2x.jpg 2x"
+                        src="images/portfolio/06-heroes-spa.jpg"
+                        srcSet="images/portfolio/06-heroes-spa.jpg 1x, 
+                                    images/portfolio/06-heroes-spa@2x.jpg 2x"
                         alt=""
                     />
                     </a>
-                </div> */}{" "}
+                </div>{" "}
                 {/* end folio-item */}
-                {/* <div className="column folio-item">
+                <div className="column folio-item">
                     <a href="#modal-07" className="folio-item__thumb">
                     <img
-                        src="images/portfolio/rucksack.jpg"
-                        srcSet="images/portfolio/rucksack.jpg 1x, 
-                                    images/portfolio/rucksack@2x.jpg 2x"
+                        src="images/portfolio/07-breaking-bad-quotes.jpg"
+                        srcSet="images/portfolio/07-breaking-bad-quotes.jpg 1x, 
+                                    images/portfolio/07-breaking-bad-quotes@2x.jpg 2x"
                         alt=""
                     />
                     </a>
-                </div> */}{" "}
+                </div>{" "}
                 {/* end folio-item */}
                 {/* <div className="column folio-item">
                     <a href="#modal-08" className="folio-item__thumb">
@@ -202,47 +202,46 @@ export default class portafolio extends Component {
                 </div>
                 </div>{" "}
                 {/* end modal */}
-                {/* <div id="modal-06" hidden="">
+                <div id="modal-06" hidden="">
                 <div className="modal-popup">
-                    <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="" />
+                    <img src="images/portfolio/gallery/06-g-heroes-spa.jpg" alt="" />
                     <div className="modal-popup__desc">
-                    <h5>Skaterboy</h5>
+                    <h5>Heroes SPA</h5>
                     <p>
-                        Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis
-                        fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis
-                        bibendum auctor.
+                        Esta es una SPA para mostrar heroes de Marvel o DC usando react yarn vite, react-router-dom, 
+                        query-string, login y logout, protegiendo rutas privadas, recuerda la ultima pagina visitada, 
+                        pruebas en componentes con jest y mocks, funcionado en netlify - pages y produccion, 
+                        icono svg personalizado.
                     </p>
-                    <ul className="modal-popup__cat">
+                    {/* <ul className="modal-popup__cat">
                         <li>Branding</li>
                         <li>Product Design</li>
-                    </ul>
+                    </ul> */}
                     </div>
-                    <a href="https://www.behance.net/" className="modal-popup__details">
-                    Project link
+                    <a href="https://heroes-spa-react-alexander.netlify.app/#/login" className="modal-popup__details">
+                    Ir al Proyecto
                     </a>
                 </div>
-                </div> */}{" "}
+                </div>{" "}
                 {/* end modal */}
-                {/* <div id="modal-07" hidden="">
+                <div id="modal-07" hidden="">
                 <div className="modal-popup">
-                    <img src="images/portfolio/gallery/g-rucksack.jpg" alt="" />
+                    <img src="images/portfolio/gallery/07-g-breaking-bad-quotes.jpg" alt="" />
                     <div className="modal-popup__desc">
-                    <h5>Rucksack</h5>
+                    <h5>Breaking Bad Quotes</h5>
                     <p>
-                        Odio soluta enim quos sit asperiores rerum rerum repudiandae cum.
-                        Vel voluptatem alias qui assumenda iure et expedita voluptatem.
-                        Ratione officiis quae.
+                        API de Breaking Bad, frases icónicas de la serie original
                     </p>
-                    <ul className="modal-popup__cat">
+                    {/* <ul className="modal-popup__cat">
                         <li>Branding</li>
                         <li>Product Design</li>
-                    </ul>
+                    </ul> */}
                     </div>
-                    <a href="https://www.behance.net/" className="modal-popup__details">
-                    Project link
+                    <a href="https://breaking-bad-quotes-alexander.netlify.app/" className="modal-popup__details">
+                    Ir al Proyecto
                     </a>
                 </div>
-                </div> */}{" "}
+                </div>{" "}
                 {/* end modal */}
                 {/* <div id="modal-08" hidden="">
                 <div className="modal-popup">
