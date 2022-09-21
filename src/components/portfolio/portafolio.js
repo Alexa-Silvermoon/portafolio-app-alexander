@@ -95,18 +95,29 @@ export default class portafolio extends Component {
                     </a>
                 </div>{" "}
                 {/* end folio-item */}
-                {/* <div className="column folio-item">
+                <div className="column folio-item">
                     <a href="#modal-08" className="folio-item__thumb">
                     <img
-                        src="images/portfolio/sanddunes.jpg"
-                        srcSet="images/portfolio/sanddunes.jpg 1x, 
-                                    images/portfolio/sanddunes@2x.jpg 2x"
+                        src="images/portfolio/08-kakeguri.jpg"
+                        srcSet="images/portfolio/08-kakeguri.jpg 1x, 
+                                    images/portfolio/08-kakeguri@2x.jpg 2x"
                         alt=""
                     />
                     </a>
-                </div> */}{" "}
-                {/* end folio-item */}
                 </div>{" "}
+                {/* end folio-item */}
+                <div className="column folio-item">
+                    <a href="#modal-09" className="folio-item__thumb">
+                    <img
+                        src="images/portfolio/09-redux-toolkit.jpg"
+                        srcSet="images/portfolio/09-redux-toolkit.jpg 1x, 
+                                    images/portfolio/09-redux-toolkit@2x.jpg 2x"
+                        alt=""
+                    />
+                    </a>
+                </div>{" "}
+                </div>{" "}
+                {/* end folio-item */}
                 {/* end folio-list */}
                 {/* Modal Templates Popup
             =========================================================== */}
@@ -243,25 +254,41 @@ export default class portafolio extends Component {
                 </div>
                 </div>{" "}
                 {/* end modal */}
-                {/* <div id="modal-08" hidden="">
+                <div id="modal-08" hidden="">
                 <div className="modal-popup">
-                    <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="" />
+                    <img src="images/portfolio/gallery/08-g-kakeguri.jpg" alt="" />
                     <div className="modal-popup__desc">
-                    <h5>Sand Dunes</h5>
+                    <h5>BlackJack Kakeguri</h5>
                     <p>
-                        Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                        sem nibh id elit.
+                        Este es un juego de blackjack hecho con JavaScript, HTML y CSS
                     </p>
-                    <ul className="modal-popup__cat">
+                    {/* <ul className="modal-popup__cat">
                         <li>Web Design</li>
-                    </ul>
+                    </ul> */}
                     </div>
-                    <a href="https://www.behance.net/" className="modal-popup__details">
-                    Project link
+                    <a href="https://blackjack-kakeguri.netlify.app/" className="modal-popup__details">
+                    Ir al Proyecto
                     </a>
                 </div>
-                </div> */}{" "}
+                </div>{" "}
+                {/* end modal */}
+                <div id="modal-09" hidden="">
+                <div className="modal-popup">
+                    <img src="images/portfolio/gallery/09-g-redux-toolkit.jpg" alt="" />
+                    <div className="modal-popup__desc">
+                    <h5>Practicas en Redux y RTK Query</h5>
+                    <p>
+                        Esta es una practica con Redux ToolKit y RTK Query, contiene pokemonAPI sencilla y todos sencillos
+                    </p>
+                    {/* <ul className="modal-popup__cat">
+                        <li>Web Design</li>
+                    </ul> */}
+                    </div>
+                    <a href="https://practice-redux-rtk-alexander.netlify.app/" className="modal-popup__details">
+                    Ir al Proyecto
+                    </a>
+                </div>
+                </div>{" "}
                 {/* end modal */}
             </section>{" "}
             {/* end s-portfolio */}
