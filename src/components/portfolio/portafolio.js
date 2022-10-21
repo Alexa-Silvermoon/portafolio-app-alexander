@@ -116,6 +116,17 @@ export default class portafolio extends Component {
                     />
                     </a>
                 </div>{" "}
+                {/* end folio-item */}
+                <div className="column folio-item">
+                    <a href="#modal-10" className="folio-item__thumb">
+                    <img
+                        src="images/portfolio/10-journal-app.jpg"
+                        srcSet="images/portfolio/10-journal-app.jpg 1x, 
+                                    images/portfolio/10-journal-app@2x.jpg 2x"
+                        alt=""
+                    />
+                    </a>
+                </div>{" "}
                 </div>{" "}
                 {/* end folio-item */}
                 {/* end folio-list */}
@@ -285,6 +296,27 @@ export default class portafolio extends Component {
                     </ul> */}
                     </div>
                     <a href="https://practice-redux-rtk-alexander.netlify.app/" className="modal-popup__details">
+                    Ir al Proyecto
+                    </a>
+                </div>
+                </div>{" "}
+                {/* end modal */}
+                <div id="modal-10" hidden="">
+                <div className="modal-popup">
+                    <img src="images/portfolio/gallery/10-g-journal-app.jpg" alt="" />
+                    <div className="modal-popup__desc">
+                    <h5>Journal App</h5>
+                    <p>
+                        Esto es un Journal App usando React Yarn Vite, con Material UI MUI y react-router-dom para proteger las rutas, 
+                        contiene seguridad con un login y register muy potente gracias a su useForm y todo su auth, 
+                        validaciones con firebase y animaciones con Animate.css, creacion de notas en Cloud Firestore, 
+                        subida de imagenes a cloudinary, CRUD completo
+                    </p>
+                    {/* <ul className="modal-popup__cat">
+                        <li>Web Design</li>
+                    </ul> */}
+                    </div>
+                    <a href="https://journal-app-react-alexander-martinez.netlify.app/" className="modal-popup__details">
                     Ir al Proyecto
                     </a>
                 </div>
