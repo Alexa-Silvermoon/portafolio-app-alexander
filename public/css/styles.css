@@ -3809,14 +3809,32 @@ input[type="button"].btn--primary:focus {
 
 .s-about__content-bottom .btn--download {
     background-color: white;
-    border-color: white;
+    border-color: orange;
+    color: black;
+    margin-right: 0;
+}
+
+.s-about__content-bottom .btn--download2 {
+    background-color: white;
+    border-color: orange;
     color: black;
     margin-right: 0;
 }
 
 .s-about__content-bottom .btn--download svg {
-    height: 2rem;
-    width: 2rem;
+    height: 0rem;
+    width: 0rem;
+    /* width: 20px; */
+    vertical-align: middle;
+    margin-right: 1.2rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.s-about__content-bottom .btn--download2 svg {
+    height: 0rem;
+    width: 0rem;
+    /* width: 20px; */
     vertical-align: middle;
     margin-right: 1.2rem;
     -webkit-transition: all 0.3s ease-in-out;
@@ -3829,40 +3847,109 @@ input[type="button"].btn--primary:focus {
     border-color: var(--color-2);
 }
 
-.s-about__content-bottom .btn--download:hover svg path, 
+.s-about__content-bottom .btn--download2:hover, 
+.s-about__content-bottom .btn--download2:focus {
+    background-color: var(--color-2);
+    border-color: var(--color-2);
+}
+
+/* .s-about__content-bottom .btn--download:hover svg path, 
 .s-about__content-bottom .btn--download:focus svg path {
     fill: white;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
  * ------------------------------------------------------------------- */
+
+ /* mi monitor exclusive full HD 1900px */
+ @media screen and (max-width: 1900px) {
+    .s-about__pic {
+        width: var(--vspace-4_5);
+        height: var(--vspace-4_5);
+        border-width: 1.4rem;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 75%;
+    }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+}
+
+ /* pantalla alta resolucion full HD de mi pc */
 @media screen and (max-width: 1200px) {
     .s-about__pic {
         width: var(--vspace-4_5);
         height: var(--vspace-4_5);
         border-width: 1.4rem;
     }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 75%;
+    }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
 }
 
+/* pantallas medias */
 @media screen and (max-width: 900px) {
     .s-about__pic {
         width: var(--vspace-4);
         height: var(--vspace-4);
         border-width: 1.2rem;
     }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
 }
 
+/* pantallas medias */
 @media screen and (max-width: 800px) {
     .s-about {
         padding-top: var(--vspace-5);
     }
+
+    /* imagen perfil en celular */
     .s-about__pic {
-        display: none;
+        /* width: 420px; */
+        width: 200px;
+        /* height: 100%; */
+        height: 200px;
+	    margin-left: 25%;
+	    /* margin-right: 25%; */
+        /* display: none; */
+        display: 100%;
+    }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
     }
 }
 
+/* pantalla de celular */
 @media screen and (max-width: 600px) {
     .s-about__content-bottom .btn--download {
         margin-top: var(--vspace-0_5);
@@ -3870,8 +3957,24 @@ input[type="button"].btn--primary:focus {
     }
 }
 
+/* pantalla de celular */
+@media screen and (max-width: 600px) { 
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+}
+
+/* pantallas super pequeñas */
 @media screen and (max-width: 360px) {
     .s-about__content-bottom .btn--download svg {
+        display: none;
+    }
+}
+
+/* pantallas super pequeñas */
+@media screen and (max-width: 360px) {
+    .s-about__content-bottom .btn--download2 svg {
         display: none;
     }
 }

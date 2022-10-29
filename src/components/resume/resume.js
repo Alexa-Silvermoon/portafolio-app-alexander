@@ -65,10 +65,10 @@ export default class resume extends Component {
                     </div>
                     <p>
                         ● Lenguajes: JavaScript, NodeJS, TypeScript.<br></br>
-                        ● Conocimientos: Html, NPM, Yarn, Postman, GitHub, Heroku, Google Cloud API, Cloudinary, Giphy, Netlify, Pruebas Jest.<br></br>
+                        ● Conocimientos: Html, NPM, Yarn, Postman, GitHub, Heroku, Google Cloud API, Cloudinary, Giphy, Netlify, Pruebas Jest, Excel.<br></br>
                         ● Bases de Datos: MongoDB Compass & Atlas, MySql - TablePlus.<br></br>
                         ● SDK: Visual Studio Code + Extensiones.<br></br>
-                        ● Frameworks: React con Vite.<br></br>
+                        ● Librerías: React con Yarn Vite.<br></br>
                         ● Habilidades analíticas: creatividad, trabajo en equipo, adaptabilidad, responsabilidad, habilidad para aprender y puntualidad.
                     </p>
                     </div>{" "}
@@ -88,9 +88,10 @@ export default class resume extends Component {
                         ● Duolingo.<br></br>
                         ● Grasshopper Learn to Code - JavaScript.<br></br>
                         ● Udemy - Programación Para Principiantes - 2021.<br></br>
-                        ● Udemy - JavaScript Moderno: Guía para dominar el lenguaje - 2022.<br></br>
-                        ● Sololearn Certificado JavaScript - 2022.<br></br>
-                        ● Udemy - Node: De cero a experto - 2022.<br></br>
+                        <a href="https://www.udemy.com/certificate/UC-83876379-4096-4bf0-a5fc-eed00ee332a3/">● Udemy - JavaScript Moderno: Guía para dominar el lenguaje - 2022.</a><br></br>
+                        <a href="https://www.sololearn.com/certificates/CT-9WCXRZHM">● Udemy - Sololearn Certificado JavaScript - 2022.</a><br></br>
+                        <a href="https://www.udemy.com/certificate/UC-23d06f5b-6d46-425f-9aae-f6b84b0216a3/">● Udemy - Node: De cero a experto - 2022.</a><br></br>
+                        <a href="https://www.udemy.com/certificate/UC-8b3b09db-c3c7-4f29-9884-32a48b48c816/">● Udemy - Excel Completo - Desde Principiante Hasta Avanzado - 2022.</a><br></br>
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
@@ -108,7 +109,7 @@ export default class resume extends Component {
                     </p>
                     <ul className="skill-bars-fat">
                         <li>
-                        <div className="progress percent45" />
+                        <div className="progress percent30" />
                         <strong>HTML</strong>
                         </li>
                         <li>
@@ -116,15 +117,15 @@ export default class resume extends Component {
                         <strong>CSS</strong>
                         </li>
                         <li>
-                        <div className="progress percent65" />
+                        <div className="progress percent60" />
                         <strong>Javascript</strong>
                         </li>
                         <li>
-                        <div className="progress percent65" />
+                        <div className="progress percent60" />
                         <strong>NodeJS</strong>
                         </li>
                         <li>
-                        <div className="progress percent55" />
+                        <div className="progress percent60" />
                         <strong>React</strong>
                         </li>
                         <li>
