@@ -127,8 +127,18 @@ export default class portafolio extends Component {
                     />
                     </a>
                 </div>{" "}
+                <div className="column folio-item">
+                    <a href="#modal-11" className="folio-item__thumb">
+                    <img
+                        src="images/portfolio/11-calendar-app.jpg"
+                        srcSet="images/portfolio/11-calendar-app.jpg 1x, 
+                                    images/portfolio/11-calendar-app@2x.jpg 2x"
+                        alt=""
+                    />
+                    </a>
                 </div>{" "}
                 {/* end folio-item */}
+                </div>{" "}
                 {/* end folio-list */}
                 {/* Modal Templates Popup
             =========================================================== */}
@@ -317,6 +327,26 @@ export default class portafolio extends Component {
                     </ul> */}
                     </div>
                     <a href="https://journal-app-react-alexander-martinez.netlify.app/" className="modal-popup__details">
+                    Ir al Proyecto
+                    </a>
+                </div>
+                </div>{" "}
+                {/* end modal */}
+                <div id="modal-11" hidden="">
+                <div className="modal-popup">
+                    <img src="images/portfolio/gallery/11-g-calendar-app.jpg" alt="" />
+                    <div className="modal-popup__desc">
+                    <h5>Calendar App</h5>
+                    <p>
+                        Esta es una app calendario usando React Yarn Vite, contiene react-router-dom para proteger las rutas, 
+                        tiene un CRUD completo para las notas de los eventos, tiene frontend y backend en NodeJS, 
+                        la BD es con Mongo.
+                    </p>
+                    {/* <ul className="modal-popup__cat">
+                        <li>Web Design</li>
+                    </ul> */}
+                    </div>
+                    <a href="https://calendarapp-react-alexander.netlify.app/auth/login" className="modal-popup__details">
                     Ir al Proyecto
                     </a>
                 </div>

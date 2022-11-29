@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Este es mi app portafolio en react donde se enlazan con mis otros proyectos
+Este es mi app portafolio en react donde se enlazan con mis otros proyectos - Christian Alexander Martinez Millan
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
