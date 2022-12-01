@@ -3864,6 +3864,49 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 
  /* mi monitor exclusive full HD 1900px */
+
+ /* resolucion 4k */
+ @media screen and (max-width: 4000px) {
+    .s-about__pic {
+        width: var(--vspace-4_5);
+        height: var(--vspace-4_5);
+        border-width: 1.4rem;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 75%;
+    }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+}
+
+ @media screen and (max-width: 2000px) {
+    .s-about__pic {
+        width: var(--vspace-4_5);
+        height: var(--vspace-4_5);
+        border-width: 1.4rem;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 75%;
+    }
+    .s-about__content-bottom .btn--download {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+    .s-about__content-bottom .btn--download2 {
+        margin-top: var(--vspace-0_5);
+        width: 100%;
+    }
+}
+
+/* mi monitor exclusive full HD 1900px */
  @media screen and (max-width: 1900px) {
     .s-about__pic {
         width: var(--vspace-4_5);

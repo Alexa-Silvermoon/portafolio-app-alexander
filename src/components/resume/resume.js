@@ -64,8 +64,8 @@ export default class resume extends Component {
                         </p> */}
                     </div>
                     <p>
-                        ● Lenguajes: JavaScript, NodeJS, TypeScript.<br></br>
-                        ● Conocimientos: Html, NPM, Yarn, Postman, GitHub, Heroku, Google Cloud API, Cloudinary, Giphy, Netlify, Pruebas Jest, Excel.<br></br>
+                        ● Lenguajes: JavaScript, NodeJS.<br></br>
+                        ● Conocimientos: Html, NPM, Yarn, Postman, GitHub, Heroku, Google Cloud API, Cloudinary, Giphy, Netlify, Pruebas Jest, Excel, RailWay.<br></br>
                         ● Bases de Datos: MongoDB Compass & Atlas, MySql - TablePlus.<br></br>
                         ● SDK: Visual Studio Code + Extensiones.<br></br>
                         ● Librerías: React con Yarn Vite.<br></br>
@@ -89,9 +89,10 @@ export default class resume extends Component {
                         ● Grasshopper Learn to Code - JavaScript.<br></br>
                         ● Udemy - Programación Para Principiantes - 2021.<br></br>
                         <a href="https://www.udemy.com/certificate/UC-83876379-4096-4bf0-a5fc-eed00ee332a3/">● Udemy - JavaScript Moderno: Guía para dominar el lenguaje - 2022.</a><br></br>
-                        <a href="https://www.sololearn.com/certificates/CT-9WCXRZHM">● Udemy - Sololearn Certificado JavaScript - 2022.</a><br></br>
+                        <a href="https://www.sololearn.com/certificates/CT-9WCXRZHM">● Sololearn Certificado JavaScript - 2022.</a><br></br>
                         <a href="https://www.udemy.com/certificate/UC-23d06f5b-6d46-425f-9aae-f6b84b0216a3/">● Udemy - Node: De cero a experto - 2022.</a><br></br>
                         <a href="https://www.udemy.com/certificate/UC-8b3b09db-c3c7-4f29-9884-32a48b48c816/">● Udemy - Excel Completo - Desde Principiante Hasta Avanzado - 2022.</a><br></br>
+                        <a href="https://www.udemy.com/certificate/UC-10143042-c8cc-4f15-9cbd-fd6c1cd169fa/">● Udemy – React: De cero a experto – (Hooks y MERN) - 2022.</a><br></br>
                     </p>
                     </div>{" "}
                     {/* end resume-block */}
