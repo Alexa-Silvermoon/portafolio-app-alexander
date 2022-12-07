@@ -148,7 +148,8 @@ export default class portafolio extends Component {
                     <div className="modal-popup__desc">
                     <h5>Webserver en NodeJS</h5>
                     <p>
-                        Este es un websever que funciona con dotenv, express, hbs, nodemon. Tiene una fotos mias con motos de fondo
+                        Este es un websever que funciona con dotenv, express, hbs, nodemon, corriendo en RailWay.
+                        Tiene una fotos mias con motos de fondo
                     </p>
                     {/* <ul className="modal-popup__cat">
                         <li>Branding</li>
@@ -156,7 +157,7 @@ export default class portafolio extends Component {
                     </ul> */}
                     </div>
                     {/* <a href="https://www.behance.net/" className="modal-popup__details"> */}
-                    <a href="https://webserver-curso-node-alexander.herokuapp.com/" className="modal-popup__details">
+                    <a href="https://curso-node-webserver-alexander.up.railway.app/" className="modal-popup__details">
                     Ir al Proyecto
                     </a>
                 </div>
@@ -168,13 +169,14 @@ export default class portafolio extends Component {
                     <div className="modal-popup__desc">
                     <h5>Restserver en NodeJS</h5>
                     <p>
-                        Este es un restserver basico con get, post, put, delete, para usuarios, productos y categorias, incluye google sign in, pruebas en postman
+                        Este es un restserver basico con get, post, put, delete, para usuarios, productos y categorias, 
+                        incluye google sign in, pruebas en postman, corriendo en RailWay
                     </p>
                     {/* <ul className="modal-popup__cat">
                         <li>Branding</li>
                     </ul> */}
                     </div>
-                    <a href="https://restserver-curso-node-alexande.herokuapp.com/" className="modal-popup__details">
+                    <a href="https://curso-node-restserver-basico2-alexander.up.railway.app/" className="modal-popup__details">
                     Ir al Proyecto
                     </a>
                 </div>
