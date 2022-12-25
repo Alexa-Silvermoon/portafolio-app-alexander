@@ -130,7 +130,7 @@ export default class resume extends Component {
                         <strong>React</strong>
                         </li>
                         <li>
-                        <div className="progress percent5" />
+                        <div className="progress percent25" />
                         <strong>Python</strong>
                         </li>
                         <li>

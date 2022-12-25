@@ -127,12 +127,24 @@ export default class portafolio extends Component {
                     />
                     </a>
                 </div>{" "}
+                {/* end folio-item */}
                 <div className="column folio-item">
                     <a href="#modal-11" className="folio-item__thumb">
                     <img
                         src="images/portfolio/11-calendar-app.jpg"
                         srcSet="images/portfolio/11-calendar-app.jpg 1x, 
                                     images/portfolio/11-calendar-app@2x.jpg 2x"
+                        alt=""
+                    />
+                    </a>
+                </div>{" "}
+                {/* end folio-item */}
+                <div className="column folio-item">
+                    <a href="#modal-12" className="folio-item__thumb">
+                    <img
+                        src="images/portfolio/12-ahorcado-angular.jpg"
+                        srcSet="images/portfolio/12-ahorcado-angular.jpg 1x, 
+                                    images/portfolio/12-ahorcado-angular@2x.jpg 2x"
                         alt=""
                     />
                     </a>
@@ -349,6 +361,24 @@ export default class portafolio extends Component {
                     </ul> */}
                     </div>
                     <a href="https://calendarapp-react-alexander.netlify.app/auth/login" className="modal-popup__details">
+                    Ir al Proyecto
+                    </a>
+                </div>
+                </div>{" "}
+                {/* end modal */}
+                <div id="modal-12" hidden="">
+                <div className="modal-popup">
+                    <img src="images/portfolio/gallery/12-g-ahorcado-angular.jpg" alt="" />
+                    <div className="modal-popup__desc">
+                    <h5>Juego Ahorcado - DokiDoki Sayori</h5>
+                    <p>
+                    Juego de ahorcado hecho en Angular con TS, tiene imagenes de juego Doki Doki, funciona con array aleatorio de palabras
+                    </p>
+                    {/* <ul className="modal-popup__cat">
+                        <li>Web Design</li>
+                    </ul> */}
+                    </div>
+                    <a href="https://ahorcardo-angular-alexander.netlify.app/" className="modal-popup__details">
                     Ir al Proyecto
                     </a>
                 </div>
